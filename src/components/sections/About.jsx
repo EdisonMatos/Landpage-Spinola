@@ -35,7 +35,7 @@ export default function About() {
             aria-label={content.texts.hero.ctaButtonAriaLabel}
             label={content.texts.hero.ctaButtonText}
             buttonLink={whatsappContactLink}
-            animation
+             animation={false}
             className="hover:scale-105"
             icon={
               <svg
