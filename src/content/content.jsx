@@ -184,9 +184,9 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "Consultoria Preventiva",
+        title: "Previdenciário",
         subtitle:
-          "Prevenindo conflitos e promovendo segurança jurídica em relações profissionais.",
+          "Trabalhamos para garantir o acesso justo aos seus benefícios.",
         description: (
           <div>
             0empty <br />
