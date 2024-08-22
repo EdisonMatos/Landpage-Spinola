@@ -1,8 +1,8 @@
 const infos = {
   name: "Spínola e Filgueira Advocacia",
   slogan: "",
-  phone: "(84) 9926-7425",
-  mail: "A definir",
+  phone: "(84) 99926-7425",
+  mail: "contato@spinolaefilgueira.com.br",
   footerInfos: {
     endereco: (
       <div>
