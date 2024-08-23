@@ -30,9 +30,11 @@ export default function Button({
 
   const Animation = animation ? MotionDivDownToUp : "div";
 
+  const CustomTagName = removeAnchor ? "div" : tagName || "a";
+
   return (
     <CustomTag
-      tagName={tagName}
+      tagName={CustomTagName}
       {...(removeTarget ? {} : { target: "_blank" })}
       {...(removeAnchor ? {} : { href: buttonLink })}
       className=""
