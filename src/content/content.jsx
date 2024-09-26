@@ -1,6 +1,7 @@
 import links from "./links";
 import infos from "./infos";
 
+
 import logo from "../assets/imgs/logo/logo.webp";
 import solidLogo from "../assets/imgs/logo/solidLogo.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
