@@ -99,7 +99,7 @@ export default function Hero() {
                 </MotionDivLeftToRight>
               </div> */}
             </div>
-            <div className="flex justify-center phone1:w-full desktop1:w-[42%] desktop2:w-[42.8%]">
+            <div className="flex justify-center phone1:w-full desktop1:w-[42%] desktop2:w-[42.8%] max-w-[500px]">
               <MotionDivDownToUp className="relative flex justify-end phone1:w-full ">
                 {/* <img
                   src={imgLaw}
@@ -107,17 +107,19 @@ export default function Hero() {
                   className="bg-red-500 "
                 /> */}
                 <div
-                  className="rounded-2xl w-full h-[220px] desktop1:h-[400px] bg-cover bg-center bg-no-repeat"
+                  className="rounded-2xl w-full h-[300px] desktop1:h-[400px] bg-cover bg-center bg-no-repeat"
                   style={{
                     backgroundImage: `url(${imgLaw})`,
                     backgroundSize: "",
                   }}
                 ></div>
+                {/*
                 <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
                   className="absolute opacity-30 phone1:right-[-15px] phone1:top-[-20px] desktop3:right-[-40px] desktop3:top-[40px]"
                 ></img>
+                */}
               </MotionDivDownToUp>
             </div>
           </div>

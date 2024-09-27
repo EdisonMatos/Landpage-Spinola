@@ -6,7 +6,7 @@ import content from "../../content/content";
 import Button from "../interactives/Button";
 import imgAppStore from "../../assets/imgs/hero/appStore.png";
 import imgGooglePlay from "../../assets/imgs/hero/googlePlay.png";
-import imgLaw from "../../assets/imgs/hero/lawHero.jpg";
+import imgLaw from "../../assets/imgs/hero/lawHero.webp";
 import imgPoints from "../../assets/imgs/about/points.png";
 import { Dialog } from "primereact/dialog";
 import "primereact/resources/themes/saga-blue/theme.css";
