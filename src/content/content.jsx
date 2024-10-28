@@ -1,7 +1,6 @@
 import links from "./links";
 import infos from "./infos";
 
-
 import logo from "../assets/imgs/logo/logo.webp";
 import solidLogo from "../assets/imgs/logo/solidLogo.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
@@ -10,7 +9,7 @@ import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
-import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
