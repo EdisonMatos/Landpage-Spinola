@@ -263,14 +263,15 @@ const content = {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: "MANTENHA-SE INFORMADO",
-        title: "Acompanhe as novidades!",
+        miniTag: "FEEDBACKS E INTERAÇÕES",
+        title: "Clientes satisfeitos são reflexo do nosso compromisso",
         subtitle:
-          "⚖️ Quer ficar por dentro das novidades do mundo jurídico? Siga Spínola e Filgueira Advocacia no Instagram!",
+          "⚖️ Com muitos feedbacks positivos de nossos clientes, reforçamos nosso compromisso em oferecer um serviço de excelência e satisfação total.",
         paragraph: (
           <p>
-            Em nossas redes, você encontra atualizações sobre Direito Penal,
-            Trabalhista, Consultoria e muito mais!
+            Quer conhecer ainda mais nosso escritório? Siga Spínola e Filgueira
+            Advocacia no Instagram! Em nossas redes, você encontra atualizações
+            sobre Direito Penal, Trabalhista, Consultoria e muito mais!
             <br />
             <br />
             Fique por dentro e esteja sempre um passo à frente com a nossa
