@@ -13,6 +13,7 @@ import Button from "../interactives/Button";
 import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
+import ReviewWidget from "../sectionElements/WidgetsComponent";
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -27,11 +28,12 @@ export default function AboutInstagram() {
             src={imgPhone}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
           ></img> */}
-          <img
+          <ReviewWidget />
+          {/* <img
             src={content.texts.about.aboutSocial.img.img}
             alt={content.texts.about.aboutSocial.img.alt}
             className=""
-          />
+          /> */}
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <MotionDivDownToUp>
