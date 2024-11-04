@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from "react";
+import SectionArea from "../sectionElements/SectionArea";
+import SectionWrapper from "../sectionElements/SectionWrapper";
 
 function ReviewWidget() {
   const widgetRef = useRef(null);
@@ -10,19 +12,23 @@ function ReviewWidget() {
   }, []);
 
   return (
-    <div
-      ref={widgetRef}
-      className=" bg-bgSectionLight w-[90%] lg:w-full px-4 rounded-[20px] h-auto"
-    >
-      <script
-        src="https://static.elfsight.com/platform/platform.js"
-        async
-      ></script>
-      <div
-        class="elfsight-app-754574d8-641e-42a4-a7ba-b4fcd4705f8a"
-        data-elfsight-app-lazy
-      ></div>
-    </div>
+    <SectionArea className="bg-bgSectionDark">
+      <SectionWrapper>
+        <div
+          ref={widgetRef}
+          className="mx-auto"
+        >
+          <script
+            src="https://static.elfsight.com/platform/platform.js"
+            async
+          ></script>
+          <div
+            class="elfsight-app-c34d9f0b-bfc6-4a61-aadb-8fc1fff2730c"
+            data-elfsight-app-lazy
+          ></div>
+        </div>
+      </SectionWrapper>
+    </SectionArea>
   );
 }
 

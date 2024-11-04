@@ -20,12 +20,13 @@ export default function Index() {
     <div>
       <NavbarSocial />
       <Hero />
-      
+
       <FeaturesWithIcons />
       {/* <FeaturesButton /> */}
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
+      <ReviewWidget />
       <CtaMinimal />
       {/* <Depositions /> */}
       <HowItWorksImage />
