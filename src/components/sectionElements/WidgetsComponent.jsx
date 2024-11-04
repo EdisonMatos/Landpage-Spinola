@@ -12,7 +12,7 @@ function ReviewWidget() {
   return (
     <div
       ref={widgetRef}
-      className=" bg-bgSectionLight w-full px-4 rounded-[20px] h-auto"
+      className=" bg-bgSectionLight w-[90%] lg:w-full px-4 rounded-[20px] h-auto"
     >
       <script
         src="https://static.elfsight.com/platform/platform.js"
