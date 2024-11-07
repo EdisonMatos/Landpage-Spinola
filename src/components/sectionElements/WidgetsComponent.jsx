@@ -12,7 +12,7 @@ function ReviewWidget() {
   }, []);
 
   return (
-    <SectionArea className="bg-bgSectionDark">
+    <SectionArea className="bg-bgSectionDark" paddingtop={false}>
       <SectionWrapper>
         <div
           ref={widgetRef}
