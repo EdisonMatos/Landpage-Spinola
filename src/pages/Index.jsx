@@ -13,17 +13,20 @@ import CtaMinimal from "../components/sections/CtaMinimal";
 import Depositions from "../components/sections/Depositions";
 import Hero from "../components/sections/Hero";
 import FeaturesButton from "../components/sections/FeaturesButton";
+import ReviewWidget from "../components/sectionElements/WidgetsComponent";
 
 export default function Index() {
   return (
     <div>
       <NavbarSocial />
       <Hero />
+
       <FeaturesWithIcons />
       {/* <FeaturesButton /> */}
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
+      <ReviewWidget />
       <CtaMinimal />
       {/* <Depositions /> */}
       <HowItWorksImage />
