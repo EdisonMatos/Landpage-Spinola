@@ -66,6 +66,18 @@ export default function Hero() {
                   />
                 </div>
               </div>
+              <MotionDivDownToUp>
+                <div className="flex justify-center desktop1:justify-start mt-[32px]">
+                  <div className="flex flex-col items-center desktop1:flex-row">
+                    <div className="mb-[10px] desktop1:mb-0 desktop1:mr-[12px]">
+                      {content.texts.hero.obsIcon}
+                    </div>
+                    <p className="text-white opacity-80 ml-[10px] text-center desktop1:text-left [text-shadow:_2px_2px_2px_rgb(0_0_0_/_50%)]">
+                      {content.texts.hero.obsHeroText}
+                    </p>
+                  </div>
+                </div>
+              </MotionDivDownToUp>
               {/* <div className="">
                 <MotionDivLeftToRight>
                   <p className="mb-[20px]">Baixe nosso app:</p>
