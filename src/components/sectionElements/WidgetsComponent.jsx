@@ -12,7 +12,7 @@ function ReviewWidget() {
   }, []);
 
   return (
-    <SectionArea className="bg-bgSectionDark" paddingtop={false}>
+    <SectionArea className="bg-bgSectionDark">
       <SectionWrapper>
         <div
           ref={widgetRef}
@@ -22,7 +22,7 @@ function ReviewWidget() {
             src="https://static.elfsight.com/platform/platform.js"
             async
           ></script>
-          <div
+          <div className="h-[470px]"
             class="elfsight-app-c34d9f0b-bfc6-4a61-aadb-8fc1fff2730c"
             data-elfsight-app-lazy
           ></div>

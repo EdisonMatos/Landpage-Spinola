@@ -26,7 +26,7 @@ export default function Index() {
       {/* <Numbers /> */}
       <About />
       <AboutInstagram />
-      <ReviewWidget />
+      {/* <ReviewWidget /> */}
       <CtaMinimal />
       {/* <Depositions /> */}
       <HowItWorksImage />

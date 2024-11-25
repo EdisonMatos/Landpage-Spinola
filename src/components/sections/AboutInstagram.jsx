@@ -14,6 +14,8 @@ import links from "../../content/links";
 import SectionHeader from "../sectionElements/SectionHeader";
 import imgPoints from "../../assets/imgs/about/points.png";
 import imgTablet from "../../assets/imgs/about/aboutSocial.webp";
+import ReviewWidget from "../../components/sectionElements/WidgetsComponent";
+
 
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
@@ -24,11 +26,12 @@ export default function AboutInstagram() {
     <SectionArea id="about" className="bg-bgSectionDark">
       <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
         <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
-          <img
+          {/* <img
             src={imgTablet}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
-          ></img>
-          {/* <img
+          ></img> */}
+      <ReviewWidget />
+      {/* <img
             src={content.texts.about.aboutSocial.img.img}
             alt={content.texts.about.aboutSocial.img.alt}
             className=""
