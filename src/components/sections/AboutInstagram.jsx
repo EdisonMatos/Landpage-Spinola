@@ -16,7 +16,6 @@ import imgPoints from "../../assets/imgs/about/points.png";
 import imgTablet from "../../assets/imgs/about/aboutSocial.webp";
 import ReviewWidget from "../../components/sectionElements/WidgetsComponent";
 
-
 export default function AboutInstagram() {
   const [visible, setVisible] = useState(false);
   const [modalContent, setModalContent] = useState("");
@@ -30,8 +29,8 @@ export default function AboutInstagram() {
             src={imgTablet}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
           ></img> */}
-      <ReviewWidget />
-      {/* <img
+          <ReviewWidget />
+          {/* <img
             src={content.texts.about.aboutSocial.img.img}
             alt={content.texts.about.aboutSocial.img.alt}
             className=""

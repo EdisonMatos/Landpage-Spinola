@@ -280,6 +280,13 @@ const content = {
         ),
       },
     },
+    widget: {
+      miniTag: "A definir",
+      title: "A definir",
+      subtitle:
+        "A definir",
+    },
+
     trustedBy: {
       title: "0empty",
       subtitle: "0empty",
