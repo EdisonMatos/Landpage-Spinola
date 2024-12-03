@@ -280,11 +280,10 @@ const content = {
         ),
       },
     },
-    widget: {
-      miniTag: "A definir",
-      title: "A definir",
-      subtitle:
-        "A definir",
+    googleReview: {
+      miniTag: "Feedbacks",
+      title: "Avaliações de clientes",
+      subtitle: "Com muitos feedbacks positivos de nossos clientes, reforçamos nosso compromisso em oferecer um serviço de excelência",
     },
 
     trustedBy: {
