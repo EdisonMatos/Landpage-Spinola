@@ -1,8 +1,10 @@
+const currentYear = new Date().getFullYear();
+
 const infos = {
-  name: "Spínola e Filgueira Advocacia",
+  name: "Dr Gladivan Filgueira",
   slogan: "",
   phone: "(84) 99926-7425",
-  mail: "contato@spinolaefilgueira.com.br",
+  mail: "contato@gladivanfilgueiraadvocacia.com.br",
   footerInfos: {
     endereco: (
       <div>
@@ -27,7 +29,7 @@ const infos = {
       </span>
     ),
     midSectionName: "Até mais!",
-    year: 2024,
+    year: currentYear,
     footerText:
       "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
 

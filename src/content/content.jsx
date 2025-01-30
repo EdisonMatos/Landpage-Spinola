@@ -1,14 +1,14 @@
 import links from "./links";
 import infos from "./infos";
 
-import logo from "../assets/imgs/logo/logo.webp";
-import solidLogo from "../assets/imgs/logo/solidLogo.webp";
+import logo from "../assets/imgs/logo/logo.png";
+import solidLogo from "../assets/imgs/logo/solidLogo.png";
 import bgHeroImg from "../assets/imgs/hero/bgHero.jpg";
 
 import imgFeatures from "../assets/imgs/features/imgServices.webp";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import aboutSocialImg from "../assets/imgs/about/aboutSocial.png";
 
 import imgSteps from "../assets/imgs/steps/imgSteps.webp";
@@ -62,7 +62,8 @@ const content = {
       miniTag: "ESCRITÓRIO DE ADVOCACIA EM NATAL - RN",
       title: (
         <h1 className="mb-[16px]">
-          Compromisso com seu direito em todo o Brasil
+          Compromisso com <span className="text-primary">seu direito</span> em
+          todo o Brasil
         </h1>
       ),
       subtitle:
@@ -176,8 +177,9 @@ const content = {
       },
       card3: {
         img: featuresImg3,
-        title: "Trabalhista",
-        subtitle: "Defesa eficaz dos seus direitos no ambiente de trabalho.",
+        title: "Imobiliário",
+        subtitle:
+          "Assessoria jurídica em transações imobiliárias, garantindo segurança e tranquilidade.",
         description: (
           <div>
             0empty <br />
@@ -191,11 +193,16 @@ const content = {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            fill="currentColor"
-            className="bi bi-whatsapp"
-            viewBox="0 0 16 16"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-house"
           >
-            <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+            <path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
           </svg>
         ),
         buttonLabelModal: "0empty",
@@ -236,44 +243,45 @@ const content = {
         img: aboutImg1,
         alt: "0empty",
       },
-      miniTag: "QUEM É SPÍNOLA & FILGUEIRA",
-      title: "Nossa trajetória",
+      miniTag: "QUEM É O DR GLADIVAN FILGUEIRA",
+      title: "Minha trajetória",
       subtitle:
-        "Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação e excelência, fundamentada em compromisso e ética.",
+        "Gladivan Filgueira Advocacia é fruto de uma trajetória de dedicação e excelência, fundamentada em compromisso e ética.",
       paragraph: (
         <div>
           Nossa busca constante pela qualidade é guiada pela defesa incansável
-          dos direitos de nossos clientes.
-          <br />
-          Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho.
+          dos direitos de nossos clientes. Valores como transparência,
+          integridade e respeito são o alicerce do nosso trabalho.
           <br />
           Para nós, o sucesso vai além de vencer causas; envolve construir
           relações de confiança e oferecer a melhor orientação jurídica.
+          <br />
+          Cada caso recebe nossa total atenção e dedicação. Estamos prontos para
+          enfrentar desafios complexos com determinação, sendo a voz firme que
+          você precisa para proteger seus direitos.
         </div>
       ),
-      titleModal: <strong>Nossa trajetória</strong>,
+      titleModal: <strong>Minha trajetória</strong>,
       modal: (
         <p>
           <strong>
-            Spínola e Filgueira Advocacia é fruto de uma trajetória de dedicação
+            Gladivan Filgueira Advocacia é fruto de uma trajetória de dedicação
             e excelência, fundamentada em compromisso e ética.
           </strong>
           <br />
           <br />
           Nossa busca constante pela qualidade é guiada pela defesa incansável
-          dos direitos de nossos clientes.
+          dos direitos de nossos clientes. Valores como transparência,
+          integridade e respeito são o alicerce do nosso trabalho.
           <br />
-          Valores como transparência, integridade e respeito são o alicerce do
-          nosso trabalho.
           <br />
           Para nós, o sucesso vai além de vencer causas; envolve construir
           relações de confiança e oferecer a melhor orientação jurídica.
           <br />
-          Cada caso recebe nossa total atenção e dedicação.
           <br />
-          Estamos prontos para enfrentar desafios complexos com determinação,
-          sendo a voz firme que você precisa para proteger seus direitos.
+          Cada caso recebe nossa total atenção e dedicação. Estamos prontos para
+          enfrentar desafios complexos com determinação, sendo a voz firme que
+          você precisa para proteger seus direitos.
         </p>
       ),
 
@@ -288,13 +296,9 @@ const content = {
           "⚖️ Com muitos feedbacks positivos de nossos clientes, reforçamos nosso compromisso em oferecer um serviço de excelência e satisfação total.",
         paragraph: (
           <p>
-            Quer conhecer ainda mais nosso escritório? Siga Spínola e Filgueira
+            Quer conhecer ainda mais nosso escritório? Siga Gladivan Filgueira
             Advocacia no Instagram! Em nossas redes, você encontra atualizações
-            sobre Direito Penal, Trabalhista, Consultoria e muito mais!
-            <br />
-            <br />
-            Fique por dentro e esteja sempre um passo à frente com a nossa
-            orientação especializada.
+            sobre Direito Penal, Consultoria e muito mais!
           </p>
         ),
       },

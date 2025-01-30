@@ -4,8 +4,7 @@ const links = {
     "+558499267425?text=Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
   ctaLink: "#",
   socialMedia: {
-    instagram:
-      "https://www.instagram.com/spinolafilgueira.adv?igsh=MTNoYTl2cGowNWtqYg%3D%3D&utm_source=qr",
+    instagram: "https://www.instagram.com/gladivanfilgueira.adv",
     facebook: "#",
     linkedin: "#",
     twitter: "#",
