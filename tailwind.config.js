@@ -14,8 +14,8 @@ module.exports = {
         darker: "#000000",
       },
       fontFamily: {
-        mainFont: ["Poppins", "sans-serif"],
-        secondFont: ["Poppins", "sans-serif"],
+        mainFont: ["Merriweather", "sans-serif"],
+        secondFont: ["Merriweather", "sans-serif"],
         league: ["League Gothic"],
         barlow: ["Barlow Condensed"],
       },
